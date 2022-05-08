@@ -7,6 +7,7 @@ body {
     font-family: "StudioNeon";
     color: aqua;
     font-size: 250%;
+    background: linear-gradient(70deg, red, orange);
 }
 
 h1 {
