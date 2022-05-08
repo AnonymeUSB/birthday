@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "StudioNeon";
+    src: url("StudioNeon.otf");
+   }
+
+body {
+    font-family: "StudioNeon";
+    color: aqua;
+    font-size: 250%;
+}
