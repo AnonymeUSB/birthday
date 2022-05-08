@@ -8,3 +8,36 @@ body {
     color: aqua;
     font-size: 250%;
 }
+
+h1 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-delay: infinite;
+    animation-fill-mode: both;
+}
+
+@keyframes example {
+    10% { color: hsl(324, 70%, 45%); }
+    20%      { color: hsl(360, 65%, 45%); }
+    30%      { color: hsl( 36, 80%, 45%); }
+    40%      { color: hsl( 72, 75%, 35%); }
+    50%      { color: hsl(108, 65%, 35%); }
+    60%      { color: hsl(144, 75%, 35%); }
+    70%      { color: hsl(180, 75%, 35%); }
+    80%      { color: hsl(216, 60%, 45%); }
+    90%      { color: hsl(252, 65%, 50%); }
+    100%      { color: hsl(288, 60%, 40%); }
+
+  }
+
+/*
+h1 {
+	-webkit-transform:skew(30deg);
+	-moz-transform:skew(30deg);
+	-o-transform:skew(30deg);
+	tranform:skew(30deg);
+}
+ */
