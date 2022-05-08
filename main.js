@@ -3,7 +3,7 @@ var msgTop = msg.offsetTop;
 var count1 = 0;
 var count2 = 5;
 
-const music = new Audio('Volume Alpha 20. Dog.mp3');
+const music = new Audio('music.mp3');
 music.play();
 music.loop =true;
 
